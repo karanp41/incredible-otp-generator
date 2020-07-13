@@ -8,6 +8,12 @@ A flexible react based OTP generator for multipurpose use.
   yarn add incredible-otp-generator 
 ```
 
+OR
+
+```
+  npm install incredible-otp-generator --save
+```
+
 ## Calling the Component e.g.
 ```
   <OTPComponent
