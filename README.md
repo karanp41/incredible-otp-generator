@@ -14,6 +14,11 @@ OR
   npm install incredible-otp-generator --save
 ```
 
+## Importing
+```
+import OTPComponent from 'incredible-otp-generator';
+````
+
 ## Calling the Component e.g.
 ```
   <OTPComponent
