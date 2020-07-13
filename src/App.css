@@ -1,0 +1,157 @@
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.otpComponent {
+  width: 470px;
+  background-color: #d6d0c7;
+  margin: 0 auto;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.otpHeader {
+  height: 9rem;
+  background: #fff;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.otpHeadWrapper {
+  height: 9rem;
+  width: 100%;
+  background: #fff;
+}
+
+.otpLogoWrapper {
+  display: flex;
+  border-bottom: 1px solid #dedede;
+  padding-bottom: .5rem;
+}
+
+.otpLogo {
+  height: 3rem;
+  width: 3rem;
+}
+
+.otpBusinessName {
+  padding: 0 1rem;
+  text-align: left;
+}
+
+.otpBusinessName p {
+  margin: 0 0 .2rem 0;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.otpBusinessName p:first-child {
+  color: #888;
+  font-size: .9rem;
+  font-weight: 400;
+}
+
+.otpLogo img {
+  height: 100%;
+  width: auto;
+}
+
+.otpCurrencyWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.otpCurrencyWrapper p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #000;
+}
+
+.pillButtonClassic {
+  height: 2rem;
+  border: 1px solid #bfbfbf;
+  color: #666;
+  border-radius: 1rem;
+  padding: 0 1.5rem;
+}
+
+.otpStatusBanner {
+  height: 3.5rem;
+  width: 100%;
+  background: #d3e2f4;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  color: #3e87f7;
+  box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.75);
+  text-align: left;
+  font-size: 1rem;
+}
+
+.otpStatusBanner.invalid {
+  color: #c72222;
+  background: #f97d74;
+}
+
+.otpBody {
+  min-height: 18rem;
+}
+
+.otpContainer {
+  margin: 5% auto;
+  text-align: center;
+}
+
+.otpInput {
+  width: 3rem !important;
+  height: 2.5rem;
+  margin: 0 0.7rem;
+  font-size: 2rem;
+  text-align: center;
+  border: none;
+  background: none;
+  border-bottom: 2px solid #999;
+  color: #5f5f5f;
+  font-weight: lighter;
+}
+
+.otpInput:focus {
+  border-bottom: 2px solid #2f7ef7;
+}
+
+.otpTimer {
+  text-align: right;
+  color: #2f7ef7;
+  font-size: 1.7rem;
+  height: 3rem;
+}
+
+.otpInput:first-child {
+  margin-left: 0;
+}
+
+.otpInput:last-child {
+  margin-right: 0;
+}
+
+.otpSubmit {
+  margin-top: 7.5rem;
+}
+
+.otpSubmitButton {
+  border: none;
+  height: 3rem;
+  width: 100%;
+  border-radius: 2rem;
+  background: #2f7ef7;
+  color: #fff;
+  font-size: 1.3rem;
+}
